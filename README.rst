@@ -12,7 +12,7 @@ The instructions are given based on using a bash command line environment.
 
 Follow these steps:
 
-#. download this `template <https://github.com/ABI-Tutorials/ABI-MappingTools-Documentation-Template/archive/refs/heads/main.zip>`_
+#. download this `template <https://github.com/ABI-Tutorials/ABI-MappingTools-Documentation-Template/archive/refs/heads/main.zip>`_ as a zip archive.
 #. make the current directory the root directory of the repository that the documentation template is to be applied to::
 
     cd <root-directory-of-repository>
@@ -25,7 +25,8 @@ Follow these steps:
 
     rm docs/README.rst
 
-#. edit the docs/index.rst file, and replace the 'XXXXXXXX' text with an appropriate name.
+#. edit the docs/index.rst file, and replace the 'XXXXXXXX' text with an appropriate name for the project.
+#. edit the docs/conf.py file, and replace the 'XXXXXXXX' text with an appropriate name for the project, replace 'YYYY' with the copyright year, and possibly change the author.
 #. stage and commit the new documentation files::
 
     git add docs/
