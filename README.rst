@@ -19,11 +19,15 @@ Follow these steps:
 
 #. unzip the contents of the template downloaded above::
 
-    unzip -j <absolute-path-to-download-directory>/ABI-MappingTools-Documentation-Template-main.zip -d docs
+    unzip -d docs -j <absolute-path-to-download-directory>/ABI-MappingTools-Documentation-Template-main.zip
 
 #. remove template README.rst::
 
     rm docs/README.rst
+
+#. remove template hidden file .gitignore::
+
+    rm docs/.gitignore
 
 #. edit the docs/index.rst file, and replace the 'XXXXXXXX' text with an appropriate name for the project.
 #. edit the docs/conf.py file, and replace the 'XXXXXXXX' text with an appropriate name for the project, replace 'YYYY' with the copyright year, and possibly change the author.
